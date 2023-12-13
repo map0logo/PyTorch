@@ -1,0 +1,21 @@
+name: Pearson-PyTorch
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+      - torch
+      - torchsummary
+      - keras
+      - tensorflow
+      - scikit-learn
+      - torchvision
+      - pandas
+      - numpy
+      - matplotlib
+      - jupyter
+      - seaborn
+      - pillow
+      - allennlp
