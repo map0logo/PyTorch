@@ -1,9 +1,9 @@
-name: Pearson-PyTorch
+name: Erudio-PyTorch
 channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python=3.7
+  - python=3
   - pip
   - pip:
       - torch
